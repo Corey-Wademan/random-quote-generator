@@ -1,0 +1,47 @@
+body {
+    font-family: cursive;
+}
+span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+#quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    width: 40%;
+    height: 300px;
+    border: black solid 1px;
+    background-color: whitesmoke;
+}   
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    position: static;
+    color: black;
+    height: 300px
+}
+#text {
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+#author {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+#new-quote {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    position: sticky;
+    margin: 0;
+    bottom: 25%;
+    border: blanchedalmond 3px solid;
+    border-radius: 6px;
+}
